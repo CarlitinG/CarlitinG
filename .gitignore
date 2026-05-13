@@ -1,35 +1,36 @@
 ```
-# Dart/Flutter build outputs
-.dart_tool/
-.packages
-.pub/
+# Build directories
 build/
+dist/
+
+# Dependencies
+.dart_tool/
+.pub/
+node_modules/
+
+# Logs
+*.log
 
 # Environment variables
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
-**/logs
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# IDE specific files
+# IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Coverage
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
 coverage/
-*.lcov
+htmlcov/
 
 # Temporary files
 *.tmp
-**/temp/
-**/tmp/
+*.temp
 ```

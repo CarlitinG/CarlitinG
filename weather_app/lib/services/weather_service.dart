@@ -5,11 +5,11 @@ import '../models/weather_model.dart';
 class WeatherService {
   // NOTA: Debes reemplazar esto con tu propia API key de OpenWeatherMap
   // Regístrate en https://openweathermap.org/api para obtener una gratis
-  static const String _apiKey = 'TU_API_KEY_AQUI';
+  static const String _apiKey = 'e1d364f4513badbfae5bea7e72021142';
   static const String _baseUrl = 'https://api.openweathermap.org/data/2.5';
 
   // Para pruebas, usaremos datos simulados si no hay API key
-  bool get hasApiKey => _apiKey != 'TU_API_KEY_AQUI';
+  bool get hasApiKey => _apiKey != 'TU_API_KEY_AQUI' && _apiKey.isNotEmpty;
 
   Future<WeatherModel> getCurrentWeather({
     double? latitude,

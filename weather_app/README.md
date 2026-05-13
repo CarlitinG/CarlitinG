@@ -23,13 +23,13 @@ Una aplicación Flutter para Android e iOS que te notifica sobre las condiciones
 
 ### 1. Configurar la API Key
 
-Abre el archivo `lib/services/weather_service.dart` y reemplaza:
+✅ **API Key ya configurada**: La clave `e1d364f4513badbfae5bea7e72021142` ha sido integrada en el código.
+
+Si necesitas cambiarla en el futuro, abre el archivo `lib/services/weather_service.dart` y modifica:
 
 ```dart
 static const String _apiKey = 'TU_API_KEY_AQUI';
 ```
-
-con tu API key real de OpenWeatherMap.
 
 ### 2. Instalar dependencias
 
